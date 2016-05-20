@@ -7,6 +7,17 @@ Template:       dynamic-news-lite
 (optional values you can add: Theme URI, Author URI, Version, License, License URI, Tags, Text Domain)
 */
 
+
+/* Basic Structure
+-------------------------------------------------------------- */
+#header-wrap {
+	background: #000000;
+}
+#header {
+	padding: 1.5em;
+}
+
+
 /* Header
 -------------------------------------------------------------- */
 #logo {
@@ -17,16 +28,16 @@ Template:       dynamic-news-lite
 	display: inline-block;
 	font-size: 2.5em;
 	font-weight: bold;
-	color: #000000;
+	color: #fff;
 	font-family: 'Francois One', Tahoma, Arial;
 }
 #logo .site-title a:link, 
 #logo .site-title a:visited {
-	color: #000000;
+	color: #fff;
 }
 #logo .site-title a:hover,
 #logo .site-title a:active {
-	color: #000000;
+	color: #fff;
 	text-decoration: underline;
 }
 #logo .site-description {
