@@ -22,7 +22,7 @@ body {
 
 /* Links */
 a, a:link, a:visited{
-	color: #e84747;
+	color: #000000;
 	text-decoration: none;
 }
 a:hover, a:active {
@@ -132,7 +132,7 @@ a:hover, a:active {
 }
 .widget a:link, .widget a:visited  {
 	text-decoration: none;
-	color: #e84747;
+	color: #000000;
 }
 .widget a:hover, .widget a:active {
 	text-decoration: underline;
