@@ -93,13 +93,54 @@ a:hover, a:active {
 	margin: 0 1em 0.5em 1em; 
 }
 
-/*CSS for Slider WD plugin */
-#wdslider-4  .widget .wdslider {
-    margin-bottom: 1.5em;
-    box-shadow: 0 0 0px #ddd;
-    border: 0px solid #ddd;
-    padding: 1.5em;
-    background: #fff;
-    -ms-word-wrap: break-word;
-    word-wrap: break-word;
+/* Widget Styling
+-------------------------------------------------------------- */
+.widget {
+	margin-bottom: 1.5em;
+/*	box-shadow: 0 0 4px #ddd;
+	border: 1px solid #ddd; */
+	padding: 1.5em;
+	background: #fff;
+	-ms-word-wrap: break-word;
+	word-wrap: break-word;
+}
+.widgettitle {
+	font-size: 0.9em;
+	font-family: 'Droid Sans', Arial, Tahoma;
+	padding: 0.8em;
+	margin: -0.5em -0.5em 1.5em -0.5em;
+	background: #333;
+	color: #fff;
+	text-transform: uppercase;
+}
+.widget .textwidget {
+	line-height: 1.5em;
+}
+.widget .textwidget p {
+	margin-bottom: 1em;
+}
+.widget ul, .widget ol {
+	line-height: 1.5em;
+}
+.widget ul {
+	list-style: circle inside;
+	color: #555;
+}
+.widget ul .children, .widget ol .children {
+	padding: 0;
+	margin: 0.5em 0 0.5em 1em;
+}
+.widget a:link, .widget a:visited  {
+	text-decoration: none;
+	color: #e84747;
+}
+.widget a:hover, .widget a:active {
+	text-decoration: underline;
+}
+.widget img {
+	max-width: 100%;
+	height: auto;
+}
+.widgettitle a:link, .widgettitle a:visited  {
+	color: #fff;
 }
