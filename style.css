@@ -7,6 +7,28 @@ Template:       dynamic-news-lite
 (optional values you can add: Theme URI, Author URI, Version, License, License URI, Tags, Text Domain)
 */
 
+/* General Styles
+-------------------------------------------------------------- */
+html {
+	font-size: 100.01%;
+}
+body {
+	font-family: 'Droid Sans', Arial, Tahoma;
+	font-size: 1.0em;
+	border: 0;
+	color: #111;
+	background-color: #fff;
+}
+
+/* Links */
+a, a:link, a:visited{
+	color: #e84747;
+	text-decoration: none;
+}
+a:hover, a:active {
+	text-decoration: underline;
+}
+
 
 /* Basic Structure
 -------------------------------------------------------------- */
