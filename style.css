@@ -98,6 +98,15 @@ a:hover, a:active {
     background-color: #111;
     border-bottom: 5px solid #66cccc;
 }
+#commentform #submit {
+    display: block;
+    border: none;
+    margin-top: 1em;
+    padding: 1em 4em;
+    text-decoration: none;
+    color: #fff;
+    background: #66cccc;
+}
 .postinfo .meta-category a:hover, .postinfo .meta-category a:active {
     background: #555;
     text-decoration: none;
