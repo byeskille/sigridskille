@@ -53,13 +53,13 @@ a:hover, a:active {
 	color: #eee;
 	font-family: 'Francois One', Tahoma, Arial;
 }
-#logo .site-title a:link, 
+#logo .site-title a:link,
 #logo .site-title a:visited {
 	color: #eee;
 }
 #logo .site-title a:hover,
 #logo .site-title a:active {
-	color: #fff;
+	color: #eee;
 	text-decoration: underline;
 }
 #logo .site-description {
@@ -75,8 +75,34 @@ a:hover, a:active {
 	height: auto;
 }
 
+/*Main nav menu */
+#mainnav-toggle:hover {
+    cursor: pointer;
+    background: #555;
+    border-bottom: 5px solid #66cccc;
+	}
 
+	#mainnav-menu a:hover {
+	    background: #555;
+	    border-bottom: 5px solid #66cccc;
+	}
 
+	/*Les mer lenke på forside etc*/
+	.more-link {
+    display: inline-block;
+    margin: 0.5em 0;
+    padding: 0.6em 1em;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #111;
+    border-bottom: 5px solid #66cccc;
+}
+.postinfo .meta-category a:hover, .postinfo .meta-category a:active {
+    background: #555;
+    text-decoration: none;
+    border-bottom: 5px solid #66cccc;
+}
 
 /*CSS for Twitter Stream plugin */
 .twitter-stream  p {
@@ -85,12 +111,12 @@ a:hover, a:active {
 }
 
 .twitter-stream  .twitter-date {
-	font-size: 60%; 
-	margin: 0 0 0 1em; 
+	font-size: 60%;
+	margin: 0 0 0 1em;
 }
 
 .twitter-stream  .profile-link {
-	margin: 0 1em 0.5em 1em; 
+	margin: 0 1em 0.5em 1em;
 }
 
 /* Widget Styling
@@ -98,7 +124,7 @@ a:hover, a:active {
 .widget {
 	margin-bottom: 1.5em;
 	box-shadow: 0 0 0px #ddd;
-	border: 0px solid #ddd; 
+	border: 0px solid #ddd;
 	padding: 1.5em;
 	background: #fff;
 	-ms-word-wrap: break-word;
@@ -112,6 +138,7 @@ a:hover, a:active {
 	background: #333;
 	color: #fff;
 	text-transform: uppercase;
+	border-bottom: 5px solid #66cccc;
 }
 .widget .textwidget {
 	line-height: 1.5em;
@@ -143,4 +170,7 @@ a:hover, a:active {
 }
 .widgettitle a:link, .widgettitle a:visited  {
 	color: #fff;
+}
+.widget, .type-post, .type-page, .type-attachment, .page-header, .post-pagination, #comments {
+    padding: 1.5em;
 }
